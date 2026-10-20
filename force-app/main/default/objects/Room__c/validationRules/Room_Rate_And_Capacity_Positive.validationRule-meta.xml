@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Rate_And_Capacity_Positive</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( Capacity__c &lt;= 0, Room_Rate__c &lt;=0)</errorConditionFormula>
+    <errorMessage>Room Rate and Capacity must be greater than 0.</errorMessage>
+</ValidationRule>
